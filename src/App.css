@@ -39,6 +39,12 @@ nav {
   color: rgb(216, 216, 216);
   background-color: rgba(27, 27, 27, 0.700);
 }
+.homeTitle p {}
+
+.typical{
+  font-size: 2em;
+  font-weight: 600;
+}
 
 h2 {
   color: #339beb;
