@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -7,12 +8,42 @@
   pointer-events: none;
 }
 
-a {
+#root {
+  padding: 0;
+}
+
+nav a {
   color: white;
 }
 
-header a:hover {
-  color: blue;
+nav a:hover {
+  color: #339beb;
+  transform: scale(1.1);
+}
+
+nav {
+  z-index: 100;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 0.5em 10em;
+}
+
+#home {
+  height: 100vh;
+  background-image: url('./assets/darkbackground.png');
+  background-size: cover;
+}
+
+.homeTitle {
+  height: 100vh;
+  color: rgb(216, 216, 216);
+  background-color: rgba(27, 27, 27, 0.700);
+}
+
+h2 {
+  color: #339beb;
+  font-size :3.5em;
+  font-weight: 700;
 }
 
 @media (prefers-reduced-motion: no-preference) {
