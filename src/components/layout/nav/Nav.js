@@ -1,7 +1,7 @@
 
 function Nav() {
     return(
-        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
