@@ -1,28 +1,28 @@
 import React from "react";
 import CV from "../../../assets/JARNIGON_Axel_CV.pdf"
+
 class Nav extends React.Component {
     constructor(props) {
         super(props);
         this.state = { windowHeight: window.innerHeight };
-        console.log(this.state)
-      }
+    }
     componentDidMount() {
         window.addEventListener("scroll", this.handleScroll);
-      }
+    }
     
-      componentWillUnmount() {
+    componentWillUnmount() {
         window.removeEventListener("scroll", this.handleScroll);
-      }
+    }
     
-      handleScroll = () => {
-          let windowsize = this.state.windowHeight;
-          console.log(windowsize);
+    handleScroll = () => {
+        let windowsize = this.state.windowHeight;
         if (window.scrollY > windowsize) {
           document.querySelector(".navbar").className = "navbar navscroll navbar-expand-lg fixed-top";
         } else {
           document.querySelector(".navbar").className = "navbar navbar-expand-lg fixed-top";
         }
-      };
+    };
+
     render() {
         return(
             <nav class="navbar navbar-expand-lg fixed-top">

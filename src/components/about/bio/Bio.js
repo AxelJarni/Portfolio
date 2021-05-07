@@ -55,9 +55,9 @@ class Bio extends React.Component {
             ) 
         return(
             <div className="col-sm-12 col-md-8 text-left container">
-                <p className="aboutP">Bonjour, je suis actuellement en cours de formation de Developpeur Web et Web Mobile. Passionné depuis le plus jeune âge des nouvelles technologies, je me retrouve enfin dans mon domaine de prédilection.</p>
+                <p className="aboutP">Bonjour, je suis actuellement en cours de formation de Développeur Web et Web Mobile. Passionné depuis le plus jeune âge des nouvelles technologies, je me retrouve enfin dans mon domaine de prédilection.</p>
                 <p className="aboutP">Je suis quelqu'un de rigoureux, fortement motivé, qui s'adapte facilement à n'importe quel environnement et dont ma curiosité me pousse à apprendre chaque jour de nouvelles choses et techniques.</p>
-                <p className="aboutP">De part ma formation précédente en psychologie j'ai acquis des capacités d'écoute et d'empathie importantes, mes experiences sportives font également de moi quelqu'un de coopératif qui sait communiquer et travailler en équipe.</p>
+                <p className="aboutP">De part ma formation précédente en psychologie, j'ai acquis des capacités d'écoute et d'empathie importantes, mes expériences sportives font également de moi quelqu'un de coopératif qui sait communiquer et travailler en équipe.</p>
                 <ul className='list-inline'>
                     {techicons}
                 </ul>

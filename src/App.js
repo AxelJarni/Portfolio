@@ -12,9 +12,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import jump from 'jump.js'
 
-
-
+const NavLinks = document.querySelectorAll('.nav-link');
+NavLinks.forEach(navLink => {
+    navLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        let target = navLink.getAttribute('href');
+        jump(target);
+    });
+});
 
 function App() {
   return (
