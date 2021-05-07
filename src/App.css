@@ -140,6 +140,15 @@ footer {
   margin-top: 3em;
 }
 
+.offsetanchor {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+#contact {
+  margin-bottom: 8em;
+}
+
 footer img {
   height: 1.5em;
 }
