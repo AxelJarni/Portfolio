@@ -10,7 +10,7 @@ class TechIcons extends React.Component {
         return(
             <li className='list-inline-item'>
                 <a href={this.props.techs.url}>
-                    <img class='techimg' src={this.props.techs.img}/>
+                    <img className='techimg' src={this.props.techs.img} alt='Icone de technologie'/>
                 </a>
             </li>
         );
