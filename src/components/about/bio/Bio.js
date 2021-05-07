@@ -10,6 +10,7 @@ import Giticon from "../../../assets/tech/git.png";
 class Bio extends React.Component {
     constructor(props) {
         super(props);
+        // Array for tech icons under bio
         this.state= { 
             techs:  [
                 {
@@ -47,6 +48,7 @@ class Bio extends React.Component {
     }
 
     render () {
+        // Creating a variable calling for child TechIcons for each object of the array
         let techicons = this.state.techs.map(techs => {
                 return (
                     <TechIcons techs={techs} />
