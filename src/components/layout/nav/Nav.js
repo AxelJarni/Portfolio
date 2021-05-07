@@ -15,7 +15,7 @@ function Nav() {
                         <a href="#projects" className="nav-link mx-2">Projets</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/about" className="nav-link mx-2">A propos</a>
+                        <a href="#about" className="nav-link mx-2">A propos</a>
                     </li>
                     <li className="nav-item">
                         <a href="/contact" className="nav-link mx-2">Contact</a>

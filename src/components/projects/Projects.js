@@ -72,7 +72,8 @@ class Projects extends React.Component {
             });
         return(
             <section id='projects' className='container my-5'>
-                <h3 className='my-3'>Portfolio de mes projets</h3>
+                <h3 className='my-3'>Portfolio</h3>
+                <h5 className='mb-5'>Une partie de mes projets réalisés jusque là.</h5>
                 <div className='row'>
                     {projectCards}
                 </div>
