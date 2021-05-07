@@ -88,12 +88,14 @@ li {
 .techimg {
   height: 3em;
   width: 3em;
+  margin: 0.2em 1em
 }
-/* .techslist{
-  display: grid;
-  grid-gap: 0.5em;
-  grid-template-columns: repeat(auto-fit, 15%);
-} */
+
+.myPic {
+  max-width: 80%;
+  margin-bottom: 2em;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

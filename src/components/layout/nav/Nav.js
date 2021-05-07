@@ -1,4 +1,4 @@
-
+import CV from "../../../assets/JARNIGON_Axel_CV.pdf"
 function Nav() {
     return(
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -18,10 +18,10 @@ function Nav() {
                         <a href="#about" className="nav-link mx-2">A propos</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/contact" className="nav-link mx-2">Contact</a>
+                        <a href="#contact" className="nav-link mx-2">Contact</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/resume" className="nav-link mx-2">C.V.</a>
+                        <a href={CV} className="nav-link mx-2">C.V.</a>
                     </li>
                 </ul>
                 </div>
