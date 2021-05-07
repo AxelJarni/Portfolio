@@ -3,6 +3,7 @@ import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import Footer from './components/layout/footer/Footer';
 import './App.css';
 import React from "react";
 import {
@@ -14,6 +15,7 @@ import {
 
 
 
+
 function App() {
   return (
     <div className='App'>
@@ -22,6 +24,7 @@ function App() {
       <Projects />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
