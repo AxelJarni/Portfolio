@@ -5,7 +5,7 @@ class ProjectCard extends React.Component {
         super(props);
     }
     render() {
-
+        // Returning basic bootstrap card with auto filling from props array
         return(
             <div className="projectcard col-sm-12 col-md-6 col-lg-4 p-3 h-100"> 
                 <div className='card h-100'>

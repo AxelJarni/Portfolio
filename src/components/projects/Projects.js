@@ -10,6 +10,7 @@ import ChifoumiThumb from '../../assets/thumbproject/Chifoumi.jpg';
 class Projects extends React.Component {
     constructor(props) {
         super(props);
+        // Array to store every project you want published on portfolio
         this.state= { 
             project:  [
                 {

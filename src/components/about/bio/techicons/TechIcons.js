@@ -6,7 +6,7 @@ class TechIcons extends React.Component {
     }
 
     render() {
-
+        // Tech icons under the bio. Getting them from array in parent component
         return(
             <li className='list-inline-item'>
                 <a href={this.props.techs.url}>
