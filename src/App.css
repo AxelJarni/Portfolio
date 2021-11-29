@@ -125,6 +125,7 @@ li {
 }
 
 .techimg {
+  object-fit: contain;
   height: 3em;
   width: 3em;
   margin: 0.2em 1em
